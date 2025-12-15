@@ -1,16 +1,16 @@
 # 🔓 ZIP-Lock Brute Force Engine (Python)
 
-> **⚠️ AVISO LEGAL:** Esta herramienta ha sido desarrollada estrictamente con **FINES EDUCATIVOS** y para prácticas de **HACKING ÉTICO**. El autor no se hace responsable del uso indebido en archivos de terceros sin autorización.
+> **⚠️ AVISO :** Herramienta desarrollada estrictamente con **FIN EDUCATIVO** y para prácticas de **HACKING ÉTICO**. El autor no se hace responsable del uso indebido en archivos de terceros sin autorización.
 
 ![Kali Linux](https://img.shields.io/badge/OS-Kali_Linux-blue) ![Python](https://img.shields.io/badge/Code-Python_3-yellow) ![Security](https://img.shields.io/badge/Type-Pentesting_Tool-red)
 
 ### 📋 Descripción Técnica
 Motor de ataque por **fuerza bruta (diccionario)** desarrollado en Python. Diseñado para verificar la robustez de contraseñas en archivos comprimidos `.zip` cifrados.
-El script automatiza la inyección de *payloads* desde wordlists estándar (como `rockyou.txt`) para verificar la seguridad del cifrado.
+El script automatiza la inyección de *payloads* desde diccionarios estándar (como `rockyou.txt`) para verificar la seguridad del cifrado.
 
 ### 🚀 Funcionalidades
 * **Carga Optimizada:** Capaz de procesar diccionarios masivos sin saturar la memoria.
-* **Interfaz Visual (CLI):** Feedback en tiempo real con código de colores (Librería `termcolor`) para identificar éxitos/fallos instantáneamente.
+* **Interfaz Visual (CLI):** Feedback en tiempo real con código para identificar éxitos/fallos.
 * **Gestión de Errores:** Control de excepciones para evitar paradas en archivos corruptos o bloqueados.
 
 ### 📸 Prueba de Concepto (PoC)
