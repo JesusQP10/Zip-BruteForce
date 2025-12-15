@@ -1,6 +1,6 @@
 # 🔓 ZIP-Lock Brute Force Engine (Python)
 
-> **⚠️ AVISO :** Herramienta desarrollada estrictamente con **FIN EDUCATIVO** y para prácticas de **HACKING ÉTICO**. El autor no se hace responsable del uso indebido en archivos de terceros sin autorización.
+> **⚠️ AVISO :** Herramienta desarrollada estrictamente con **FIN EDUCATIVO** y para prácticas de **HACKING ÉTICO**.
 
 ![Kali Linux](https://img.shields.io/badge/OS-Kali_Linux-blue) ![Python](https://img.shields.io/badge/Code-Python_3-yellow) ![Security](https://img.shields.io/badge/Type-Pentesting_Tool-red)
 
