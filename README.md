@@ -1,20 +1,24 @@
-# 🔓 Python Zip-Lock Brute Force Engine
+# 🔓 ZIP-Lock Brute Force Engine (Python)
 
-> **⚠️ WARNING:** Tool developed for **Cybersecurity Education** and **Pentesting Labs**. Do not use on unauthorized files.
+> **⚠️ AVISO LEGAL:** Esta herramienta ha sido desarrollada estrictamente con **FINES EDUCATIVOS** y para prácticas de **HACKING ÉTICO**. El autor no se hace responsable del uso indebido en archivos de terceros sin autorización.
 
-![Kali Linux](https://img.shields.io/badge/OS-Kali_Linux-blue) ![Python](https://img.shields.io/badge/Language-Python_3-yellow) ![Security](https://img.shields.io/badge/Type-Offensive_Security-red)
+![Kali Linux](https://img.shields.io/badge/OS-Kali_Linux-blue) ![Python](https://img.shields.io/badge/Code-Python_3-yellow) ![Security](https://img.shields.io/badge/Type-Pentesting_Tool-red)
 
-### 📋 Description
-A multi-threaded dictionary attack tool designed to audit password strength on encrypted ZIP archives. Utilizes Python's `zipfile` library to test payloads against locked targets.
+### 📋 Descripción Técnica
+Motor de ataque por **fuerza bruta (diccionario)** desarrollado en Python. Diseñado para verificar la robustez de contraseñas en archivos comprimidos `.zip` cifrados.
+El script automatiza la inyección de *payloads* desde wordlists estándar (como `rockyou.txt`) para verificar la seguridad del cifrado.
 
-### 🚀 Features
-* **Fast Dictionary Loading:** Optimized for processing large wordlists (like `rockyou.txt`).
-* **Visual Interface:** CLI with color-coded status outputs (Success/Fail/Processing).
-* **Error Handling:** Robust exception management for corrupted archives.
+### 🚀 Funcionalidades
+* **Carga Optimizada:** Capaz de procesar diccionarios masivos sin saturar la memoria.
+* **Interfaz Visual (CLI):** Feedback en tiempo real con código de colores (Librería `termcolor`) para identificar éxitos/fallos instantáneamente.
+* **Gestión de Errores:** Control de excepciones para evitar paradas en archivos corruptos o bloqueados.
 
-### 📸 Proof of Concept (PoC)
+### 📸 Prueba de Concepto (PoC)
+![cracker_py](https://github.com/user-attachments/assets/8d17e3ae-72b0-407b-901d-d778c4547a26)
 
 
-### 🛠️ Usage
+### 🛠️ Instrucciones de Uso
+Ejecutar en entorno Linux/Kali:
+
 ```bash
 python3 cracker.py
