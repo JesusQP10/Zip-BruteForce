@@ -16,14 +16,14 @@ def print_banner():
     """, 'cyan').format(zip_file))
 
 def crack_password(zip_filename, password_list):
-    # Abrimos el archivo zip
+    
     zip_obj = zipfile.ZipFile(zip_filename)
     
     
     n_words = len(list(open(password_list, "rb")))
     print(colored(f"[+] Diccionario cargado: {n_words} payloads.", 'yellow'))
     print(colored("[*] Iniciando ataque de fuerza bruta...", 'blue'))
-    time.sleep(1) # Pausa dramática
+    time.sleep(1)
 
     with open(password_list, "rb") as f:
         for line in f:
