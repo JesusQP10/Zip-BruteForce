@@ -1,4 +1,4 @@
-# 🔓 ZIP-Lock Brute Force Engine (Python)
+# 🔓 ZIP-Lock Brute Force 
 
 ![Kali Linux](https://img.shields.io/badge/OS-Kali_Linux-blue) ![Python](https://img.shields.io/badge/Code-Python_3-yellow) ![Security](https://img.shields.io/badge/Type-Pentesting_Tool-red)
 
