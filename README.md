@@ -2,7 +2,7 @@
 
 ![Kali Linux](https://img.shields.io/badge/OS-Kali_Linux-blue) ![Python](https://img.shields.io/badge/Code-Python_3-yellow) ![Security](https://img.shields.io/badge/Type-Pentesting_Tool-red)
 
-> **⚠️ AVISO :** Herramienta desarrollada estrictamente con **FIN EDUCATIVO** .
+> **⚠️** Herramienta desarrollada estrictamente con **FIN EDUCATIVO** .
 ---
 
 ### 📋 Descripción 
